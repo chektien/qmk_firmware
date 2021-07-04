@@ -127,4 +127,7 @@
 #define RGB_SAT_STEP 10
 
 // time(ms) for different tap/hold keys 
-#define TAPPING_TERM 150
+#define TAPPING_TERM 200
+
+// make a key become a mod when another key is pressed, even before TAPPING_TERM is hit
+#define PERMISSIVE_HOLD
