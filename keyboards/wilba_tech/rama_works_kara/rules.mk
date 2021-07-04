@@ -36,7 +36,3 @@ SRC =	keyboards/wilba_tech/wt_main.c \
 		quantum/color.c \
 		drivers/issi/is31fl3731.c \
 		drivers/avr/i2c_master.c
-
-# VIA
-VIA_ENABLE = true
-LTO_ENABLE = true
