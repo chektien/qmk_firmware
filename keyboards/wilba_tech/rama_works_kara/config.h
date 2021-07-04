@@ -122,6 +122,9 @@
 // VIA lighting is handled by the keyboard-level code
 #define VIA_CUSTOM_LIGHTING_ENABLE
 
-// CUSTOM settings
+// lighting changes step sizes
 #define RGB_HUE_STEP 5
 #define RGB_SAT_STEP 10
+
+// time(ms) for different tap/hold keys 
+#define TAPPING_TERM 150
