@@ -1,6 +1,6 @@
 /* Copyright 2021 Jason Williams (Wilba)
  *
- * This program is free software: you can redistribute it and/or modify
+ *id_layer_2_indicator_row_col This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 2 of the License, or
  * (at your option) any later version.
@@ -15,6 +15,7 @@
  */
 // Default layout for RAMA WORKS KARA
 #include QMK_KEYBOARD_H
+/*#include "../../../wt_rgb_backlight.h"*/
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -24,7 +25,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_LBRC, KC_RBRC, KC_BSPC,
     MT(MOD_LCTL,KC_ESC), KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, LT(1,KC_SCLN), KC_QUOT, KC_ENT,
     KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT, FN_MO13,
-        KC_LALT, KC_LGUI,                            KC_SPC,                             KC_MUTE, FN_MO23),
+        KC_LALT, KC_LGUI,                            KC_SPC,                             TG(1), FN_MO23),
 
 	// Fn1 Layer
 	[1] = LAYOUT_60_hhkb(
@@ -52,4 +53,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
-
+/*layer_state_t layer_state_set_user(layer_state_t state) {*/
+  /*HS col = { .h = 20, .s = 255 };*/
+  /*switch (get_highest_layer(state)) {*/
+    /*case 1:*/
+      /*backlight_effect_indicators_set_colors(30, col);*/
+      /*break;*/
+    /*case 2:*/
+      /*break;*/
+    /*case 3:*/
+      /*break;*/
+  /*}*/
+  /*return state;*/
+/*}*/

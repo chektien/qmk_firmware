@@ -113,3 +113,7 @@ void backlight_color_2_sat_decrease(void);
 
 void backlight_test_led( uint8_t index, bool red, bool green, bool blue );
 void backlight_debug_led(bool state);
+
+void backlight_set_color( int, uint8_t, uint8_t, uint8_t );
+void backlight_set_color_all( uint8_t, uint8_t, uint8_t );
+void backlight_effect_indicators_set_colors( uint8_t, HS color );
