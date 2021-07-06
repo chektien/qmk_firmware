@@ -96,7 +96,7 @@
 #define RGB_BACKLIGHT_EFFECT_SPEED 0
 
 // the default color1 and color2
-#define RGB_BACKLIGHT_COLOR_1 { .h = 20, .s = 200 }
+#define RGB_BACKLIGHT_COLOR_1 { .h = 23, .s = 200 }
 #define RGB_BACKLIGHT_COLOR_2 { .h = 255, .s = 210 }
 
 // These define which keys in the matrix are alphas/mods
