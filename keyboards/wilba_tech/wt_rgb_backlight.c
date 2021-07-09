@@ -2157,7 +2157,11 @@ void backlight_effect_indicators(void)
     {
         if ( g_config.layer_1_indicator.index != 255 )
         {
-            backlight_effect_indicators_set_colors( g_config.layer_1_indicator.index, g_config.layer_1_indicator.color );
+            /*backlight_effect_indicators_set_colors( g_config.layer_1_indicator.index, g_config.layer_1_indicator.color );*/
+            backlight_effect_indicators_set_colors( 45, g_config.layer_1_indicator.color );
+            backlight_effect_indicators_set_colors( 54, g_config.layer_1_indicator.color );
+            backlight_effect_indicators_set_colors( 55, g_config.layer_1_indicator.color );
+            backlight_effect_indicators_set_colors( 56, g_config.layer_1_indicator.color );
         }
     }
 }
