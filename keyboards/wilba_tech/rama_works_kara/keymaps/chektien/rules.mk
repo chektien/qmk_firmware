@@ -1,3 +1,4 @@
 # VIA
 VIA_ENABLE = true
 LTO_ENABLE = true
+#TAP_DANCE_ENABLE = yes
