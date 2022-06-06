@@ -2,8 +2,6 @@
     "keyboard_name": "RAMA WORKS KARA",
     "url": "http://rama.works",
     "maintainer": "Wilba",
-    "width": 15,
-    "height": 5,
     "layouts": {
         "LAYOUT_60_hhkb": {
             "layout": [
@@ -71,4 +69,3 @@
         }
     }
 }
-
